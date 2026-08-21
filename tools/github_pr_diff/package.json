@@ -4,8 +4,8 @@
   "description": "GitHub PR Code Review Diff Tool - TypeScript implementation for AI Agents & MCP Hub",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node index.ts",
+    "build": "node init && tsc",
+    "start": "node init && ts-node index.ts",
     "dist": "node dist/index.js"
   },
   "keywords": [
